@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+.head-header {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+}
+
+header {
+    border-bottom: 5px solid rgb(63, 63, 63);
+}
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 1%;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-s-o {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.button {
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(58, 59, 126);
+    border: none;
+    padding: 15px 60px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(44, 45, 89);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 5%;
+    color: white;
+    border-top: 5px solid rgb(63, 63, 63);
+    background-color:rgb(39, 39, 39) ;
+    height: 12vh;
+    text-align: center;
+}
+
+.donatediv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sumdonatelabel {
+    text-align: left;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.donatesumm {
+    padding: 5px ;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
