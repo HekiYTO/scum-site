@@ -1,0 +1,30 @@
+.head-header {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+}
+
+header {
+    border-bottom: 5px solid rgb(63, 63, 63);
+}
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    margin-top: 5%;
+    color: white;
+    border-top: 5px solid rgb(63, 63, 63);
+    background-color:rgb(39, 39, 39) ;
+    height: 12vh;
+    text-align: center;
+}
