@@ -13,7 +13,9 @@ function calculate() {
     let resu = (((val1*2 + val2*10) - val1 * 2.5) + 20) * multiplier;
 
     if (resu <= 0) {
-    resu = 0;
+    resu = 'tottaly free';
+    res.innerHTML = `Your fly to Donbass is ${resu}`;
+    return
     }
 
     res.innerHTML = `Your fly to Donbass will cost ${resu}$`;
