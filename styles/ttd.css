@@ -27,3 +27,40 @@ main {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.calc {
+    display: flex;
+    flex-direction: column;
+}
+
+.in1, .in2 {
+    margin: 10px auto;
+    width: 20%;
+    border: 3px rgb(24, 24, 24) solid;
+    background-color: rgb(75, 75, 75);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.in1:focus, .in2:focus {
+   outline: none;
+}
+
+.l1, .l2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.resultat {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 30px;
+}
