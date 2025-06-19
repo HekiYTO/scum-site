@@ -31,7 +31,7 @@ h2 {
 }
 
 .button:hover {
-    
+
     background-color: rgb(44, 45, 89);
     cursor: pointer;
     text-decoration: underline;
@@ -52,10 +52,17 @@ h2 {
 }
 
 .donatesumm {
-    padding: 5px ;
-    border-radius: 10px;
-    border: none;
-    font-size: 15px;
+      padding: 3px 15px;
+    font-size: 20px;
+    margin: 10px auto;
+    width: 80%;
+    border: 3px rgb(24, 24, 24) solid;
+    background-color: rgb(75, 75, 75);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.donatesumm:focus {
+    outline: none ;
 }
 
 @media screen and (max-width: 480px) {
